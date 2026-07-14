@@ -1,0 +1,4 @@
+# The Framework: only LOGS.md is the committed project DB; run state is transient.
+*
+!.gitignore
+!LOGS.md
