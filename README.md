@@ -18,8 +18,7 @@ Open the file directly:
 open index.html
 ```
 
-Or serve it over HTTP, which matches production more closely (absolute paths like
-`/favicon.ico` resolve the same way):
+Or serve it over HTTP, which matches production more closely:
 
 ```sh
 python3 -m http.server 8000
@@ -28,13 +27,20 @@ python3 -m http.server 8000
 
 ## Deploy
 
+Live at **https://suleimansh.github.io/test-project/**
+
 Deployment is GitHub Pages, driven by `.github/workflows/deploy.yml`. Every push to
 `main` publishes the site; it can also be run by hand from the Actions tab.
 
-One-time setup on the repository:
+One-time setup is already done on `suleimansh/test-project`: the remote exists and
+the Pages source is set to GitHub Actions (**Settings → Pages → Build and
+deployment → Source: GitHub Actions**). A fresh fork or clone needs both steps
+repeated before its first deploy will publish.
 
-1. Push the repo to GitHub (this project has no remote configured yet).
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+Because this is a *project* Pages site, it is served from the `/test-project/`
+subpath rather than the domain root. Asset links in `index.html` are therefore
+relative (`favicon.ico`, not `/favicon.ico`) — a root-absolute path resolves to
+`suleimansh.github.io/favicon.ico` and 404s.
 
 The workflow copies only `index.html`, `favicon.ico`, and `favicon.svg` into the
 published artifact. The repository root is *not* deployed wholesale — anything not
