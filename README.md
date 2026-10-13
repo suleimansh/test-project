@@ -2,6 +2,10 @@
 
 A single static page. No build step, no dependencies.
 
+The page greets visitors with "Hello, and welcome." centred on a dark background.
+It is deliberately minimal, so it makes a good starting point for trying out
+changes and seeing them go live on GitHub Pages within a minute or two.
+
 ## Files
 
 | Path | Purpose |
