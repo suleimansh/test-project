@@ -1,15 +1,24 @@
 {
   "id": "2026-10-14T05-04-12-754Z",
   "startedAt": "2026-10-14T05:04:12.824Z",
-  "status": "running",
+  "endedAt": "2026-10-14T05:04:43.463Z",
+  "status": "done",
   "intent": "add simple md file containing project description",
   "driver": "claude-code",
-  "model": "fable",
+  "model": "claude-fable-5-1",
+  "branch": "agent-2026-10-14T05-04-12-754Z",
+  "cost": 0.383925,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 10979
+      "pid": 10979,
+      "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 10979,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T05-04-12-754Z",
+    "sessionId": "b741d84d-b6b4-4be7-ae98-f16471985435"
   }
 }
