@@ -49,3 +49,9 @@ published artifact. The repository root is *not* deployed wholesale — anything
 in that list (for example `.the-framework/`, which holds internal run logs and
 analysis notes) is never reachable from the public site. If you add a file that
 should be served, add it to the `Stage site` step or it will not ship.
+
+## Recorded test
+
+This section was added as part of a recorded test run.
+It exists only to verify that README edits commit and push cleanly.
+It can be removed once the test has been reviewed.
