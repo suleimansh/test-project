@@ -1,10 +1,12 @@
 {
   "id": "2026-10-14T05-25-35-044Z",
   "startedAt": "2026-10-14T05:25:35.114Z",
-  "status": "running",
+  "endedAt": "2026-10-14T05:28:15.085Z",
+  "status": "stopped",
   "intent": "push changes",
   "driver": "claude-code",
   "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-14T05-25-35-044Z",
   "cost": 0.1217528,
   "caller": {
     "runner": {
