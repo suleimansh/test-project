@@ -8,6 +8,10 @@
   "driver": "claude-code",
   "model": "claude-opus-5-5",
   "branch": "agent-2026-10-14T17-54-18-828Z",
+  "pr": {
+    "number": 5,
+    "url": "https://github.com/suleimansh/test-project/pull/5"
+  },
   "cost": 0.3167388,
   "contextTokens": 27584,
   "caller": {
