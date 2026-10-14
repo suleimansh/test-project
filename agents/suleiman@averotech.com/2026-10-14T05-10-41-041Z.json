@@ -1,15 +1,24 @@
 {
   "id": "2026-10-14T05-10-41-041Z",
   "startedAt": "2026-10-14T05:10:41.109Z",
-  "status": "running",
+  "endedAt": "2026-10-14T05:11:01.627Z",
+  "status": "done",
   "intent": "change 'welcome' to hello world",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-hello-world-greeting",
+  "cost": 0.1416914,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 71982
+      "pid": 71982,
+      "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 71982,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T05-10-41-041Z",
+    "sessionId": "f3726f0a-c3b8-4558-afb4-33a17d0bbe43"
   }
 }
