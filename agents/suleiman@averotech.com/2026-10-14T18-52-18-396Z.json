@@ -1,15 +1,26 @@
 {
   "id": "2026-10-14T18-52-18-396Z",
   "startedAt": "2026-10-14T18:52:18.497Z",
-  "status": "running",
+  "endedAt": "2026-10-14T18:52:29.464Z",
+  "status": "waiting",
   "intent": "ask me simple question with options, then add the option as md file",
+  "title": "Interactive question with md options",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-14T18-52-18-396Z",
+  "cost": 0.10509020000000001,
+  "contextTokens": 23849,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 32533
+      "pid": 32533,
+      "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 32533,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T18-52-18-396Z",
+    "sessionId": "b5bc23de-da8b-418a-9b80-52f2e10f33ca"
   }
 }
