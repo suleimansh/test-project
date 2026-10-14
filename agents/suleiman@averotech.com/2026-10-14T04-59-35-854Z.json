@@ -1,16 +1,25 @@
 {
   "id": "2026-10-14T04-59-35-854Z",
   "startedAt": "2026-10-14T04:59:35.920Z",
-  "status": "running",
+  "endedAt": "2026-10-14T04:59:48.065Z",
+  "status": "done",
   "intent": "add simple md file containing project description",
   "driver": "claude-code",
-  "model": "sonnet",
+  "model": "claude-sonnet-5-5",
+  "branch": "agent-2026-10-14T04-59-35-854Z",
+  "cost": 0.0625722,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 91680,
-      "publish": "commit"
+      "publish": "commit",
+      "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 91680,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T04-59-35-854Z",
+    "sessionId": "2247576a-69e8-4bb8-9439-1b9712703001"
   }
 }
