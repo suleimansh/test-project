@@ -1,8 +1,7 @@
 {
   "id": "2026-10-14T18-52-18-396Z",
   "startedAt": "2026-10-14T18:52:18.497Z",
-  "endedAt": "2026-10-14T18:52:29.464Z",
-  "status": "waiting",
+  "status": "running",
   "intent": "ask me simple question with options, then add the option as md file",
   "title": "Interactive question with md options",
   "driver": "claude-code",
@@ -13,10 +12,10 @@
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 32533,
+      "pid": 41773,
       "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19"
     },
-    "pid": 32533,
+    "pid": 41773,
     "host": "Suleimans-MacBook-Pro.local",
     "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19",
     "kind": "prompt",
