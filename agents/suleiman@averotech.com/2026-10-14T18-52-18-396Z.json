@@ -1,14 +1,15 @@
 {
   "id": "2026-10-14T18-52-18-396Z",
   "startedAt": "2026-10-14T18:52:18.497Z",
-  "status": "running",
+  "endedAt": "2026-10-14T18:52:47.771Z",
+  "status": "done",
   "intent": "ask me simple question with options, then add the option as md file",
   "title": "Interactive question with md options",
   "driver": "claude-code",
   "model": "claude-opus-5-5",
-  "branch": "agent-2026-10-14T18-52-18-396Z",
-  "cost": 0.10509020000000001,
-  "contextTokens": 23849,
+  "branch": "agent-favorite-pet",
+  "cost": 0.27607980000000004,
+  "contextTokens": 28960,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
