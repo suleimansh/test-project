@@ -1,5 +1,7 @@
 # Hello
 
+This project is a single-page static website hosted on GitHub Pages.
+
 A single static page. No build step, no dependencies. It renders one centered
 greeting — "Hello, and welcome." — on a dark background, and nothing else. The
 favicon is a white "H" on a rounded square in the same dark colour as the page.
