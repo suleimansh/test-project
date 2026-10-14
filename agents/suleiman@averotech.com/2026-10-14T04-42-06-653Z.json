@@ -1,16 +1,25 @@
 {
   "id": "2026-10-14T04-42-06-653Z",
   "startedAt": "2026-10-14T04:42:06.723Z",
-  "status": "running",
+  "endedAt": "2026-10-14T04:42:26.704Z",
+  "status": "done",
   "intent": "add new test.md file contain one random color",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-add-test-md-color",
+  "cost": 0.12241199999999999,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 47388,
-      "publish": "commit"
+      "publish": "commit",
+      "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 47388,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T04-42-06-653Z",
+    "sessionId": "a7a7b3c6-0f50-4cd1-9e79-3c1a7cdb83b8"
   }
 }
