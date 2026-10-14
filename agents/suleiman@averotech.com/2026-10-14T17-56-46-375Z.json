@@ -1,18 +1,29 @@
 {
   "id": "2026-10-14T17-56-46-375Z",
   "startedAt": "2026-10-14T17:56:46.472Z",
-  "status": "running",
+  "endedAt": "2026-10-14T17:56:59.699Z",
+  "status": "done",
   "intent": "tell me 300 md format about AI",
+  "title": "AI Markdown Document Request",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-14T17-56-46-375Z",
+  "cost": 0.0911884,
+  "contextTokens": 20811,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 8253,
       "publish": "commit",
-      "base": "the-framework/say-hello-static-html"
+      "base": "the-framework/say-hello-static-html",
+      "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a"
     },
+    "pid": 8253,
     "host": "Suleimans-MacBook-Pro.local",
-    "base": "the-framework/say-hello-static-html"
+    "base": "the-framework/say-hello-static-html",
+    "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T17-56-46-375Z",
+    "sessionId": "9241daa5-1568-4bcc-8604-7ecd1618d37b"
   }
 }
