@@ -1,18 +1,29 @@
 {
   "id": "2026-10-14T17-54-18-828Z",
   "startedAt": "2026-10-14T17:54:18.925Z",
-  "status": "running",
+  "endedAt": "2026-10-14T17:54:32.744Z",
+  "status": "waiting",
   "intent": "add new test.md contain my favorite color",
+  "title": "Test file favorite color",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-14T17-54-18-828Z",
+  "cost": 0.131046,
+  "contextTokens": 23915,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 34380,
       "publish": "commit",
-      "base": "the-framework/say-hello-static-html"
+      "base": "the-framework/say-hello-static-html",
+      "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a"
     },
+    "pid": 34380,
     "host": "Suleimans-MacBook-Pro.local",
-    "base": "the-framework/say-hello-static-html"
+    "base": "the-framework/say-hello-static-html",
+    "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T17-54-18-828Z",
+    "sessionId": "9881734b-9680-4140-8334-8b40990768c0"
   }
 }
