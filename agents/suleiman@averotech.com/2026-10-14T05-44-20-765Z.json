@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-14T05-44-20-765Z",
+  "startedAt": "2026-10-14T05:44:20.837Z",
+  "status": "running",
+  "intent": "open google.com",
+  "driver": "claude-code",
+  "model": "opus",
+  "caller": {
+    "runner": {
+      "host": "Suleimans-MacBook-Pro.local",
+      "pid": 21248,
+      "publish": "commit",
+      "base": "the-framework/say-hello-static-html"
+    },
+    "host": "Suleimans-MacBook-Pro.local",
+    "base": "the-framework/say-hello-static-html"
+  }
+}
