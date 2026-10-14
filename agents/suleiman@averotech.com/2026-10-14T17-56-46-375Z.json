@@ -7,7 +7,6 @@
   "title": "AI Markdown Document Request",
   "driver": "claude-code",
   "model": "claude-opus-5-5",
-  "branch": "agent-2026-10-14T17-56-46-375Z",
   "cost": 0.0911884,
   "contextTokens": 20811,
   "caller": {
