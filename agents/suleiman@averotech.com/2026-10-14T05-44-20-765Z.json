@@ -1,18 +1,27 @@
 {
   "id": "2026-10-14T05-44-20-765Z",
   "startedAt": "2026-10-14T05:44:20.837Z",
-  "status": "running",
+  "endedAt": "2026-10-14T05:44:43.459Z",
+  "status": "done",
   "intent": "open google.com",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-14T05-44-20-765Z",
+  "cost": 0.1335028,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 21248,
       "publish": "commit",
-      "base": "the-framework/say-hello-static-html"
+      "base": "the-framework/say-hello-static-html",
+      "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a"
     },
+    "pid": 21248,
     "host": "Suleimans-MacBook-Pro.local",
-    "base": "the-framework/say-hello-static-html"
+    "base": "the-framework/say-hello-static-html",
+    "baseCommit": "773ae5943eb31ff3fafe44fe8f3323c10a130b8a",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T05-44-20-765Z",
+    "sessionId": "621a91ae-92cb-46d9-b9bb-9cda247c669b"
   }
 }
