@@ -1,15 +1,26 @@
 {
   "id": "2026-10-14T18-03-31-974Z",
   "startedAt": "2026-10-14T18:03:32.067Z",
-  "status": "running",
+  "endedAt": "2026-10-14T18:03:51.675Z",
+  "status": "done",
   "intent": "add simple md file containing project description",
+  "title": "Project description markdown file",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-project-description-md",
+  "cost": 0.1605326,
+  "contextTokens": 27835,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 7861
+      "pid": 7861,
+      "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 7861,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T18-03-31-974Z",
+    "sessionId": "cf39718d-4eee-438e-aa37-4ae16e84ae43"
   }
 }
