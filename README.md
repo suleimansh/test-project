@@ -1,6 +1,7 @@
 # Hello
 
-A single static page. No build step, no dependencies.
+A single static page. No build step, no dependencies. It renders one centered
+greeting — "Hello, and welcome." — on a dark background, and nothing else.
 
 ## Files
 
