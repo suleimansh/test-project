@@ -6,7 +6,6 @@
   "intent": "open google.com",
   "driver": "claude-code",
   "model": "claude-opus-5-5",
-  "branch": "agent-2026-10-14T05-44-20-765Z",
   "cost": 0.1335028,
   "caller": {
     "runner": {
