@@ -1,16 +1,25 @@
 {
   "id": "2026-10-14T04-55-53-592Z",
   "startedAt": "2026-10-14T04:55:53.659Z",
-  "status": "running",
+  "endedAt": "2026-10-14T04:56:17.306Z",
+  "status": "done",
   "intent": "make readme.md shorter",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-shorten-readme",
+  "cost": 0.16064799999999999,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
       "pid": 98536,
-      "publish": "commit"
+      "publish": "commit",
+      "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 98536,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "b75a72e2803dfabaef1d274826024fcc8e288bea",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-14T04-55-53-592Z",
+    "sessionId": "da0e4f46-7484-422c-89d0-82c909f49fe2"
   }
 }
