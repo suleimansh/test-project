@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-14T17-56-46-375Z",
+  "startedAt": "2026-10-14T17:56:46.472Z",
+  "status": "running",
+  "intent": "tell me 300 md format about AI",
+  "driver": "claude-code",
+  "model": "opus",
+  "caller": {
+    "runner": {
+      "host": "Suleimans-MacBook-Pro.local",
+      "pid": 8253,
+      "publish": "commit",
+      "base": "the-framework/say-hello-static-html"
+    },
+    "host": "Suleimans-MacBook-Pro.local",
+    "base": "the-framework/say-hello-static-html"
+  }
+}
