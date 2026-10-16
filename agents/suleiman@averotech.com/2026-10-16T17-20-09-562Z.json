@@ -7,7 +7,6 @@
   "title": "Create the contact page",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T17-20-09-562Z",
   "cost": 0.0804233,
   "contextTokens": 26825,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "5d8b614bd5daf699134c35ab60b3b5295f153a73",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T17-20-09-562Z",
-    "sessionId": "8628e35b-e90d-415b-8bab-51470dfc3214"
+    "sessionId": "8628e35b-e90d-415b-8bab-51470dfc3214",
+    "landed": "38323c60ecb72367d5cb8bd7094ed7a584a6495e"
   }
 }
