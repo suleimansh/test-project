@@ -7,7 +7,6 @@
   "title": "Add a nav to index.html",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T16-10-06-063Z",
   "cost": 0.0751232,
   "contextTokens": 26521,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "b4a979bd7ab6d931af5fa6b99245c1f0793c1a40",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T16-10-06-063Z",
-    "sessionId": "96f1af1e-4b96-443f-a014-4947b46562a5"
+    "sessionId": "96f1af1e-4b96-443f-a014-4947b46562a5",
+    "landed": "cd6153449cd359a6219fe913a122bf86a45c4dbb"
   }
 }
