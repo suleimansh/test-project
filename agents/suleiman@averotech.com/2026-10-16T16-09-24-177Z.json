@@ -7,7 +7,6 @@
   "title": "Write files.html listing the markdown files",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T16-09-24-177Z",
   "cost": 0.0766712,
   "contextTokens": 26616,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "a8a26dd6d01a2c158f9358b2ec464de89b6fefd3",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T16-09-24-177Z",
-    "sessionId": "f9732acb-5f4a-4c2b-977e-56230925b5c3"
+    "sessionId": "f9732acb-5f4a-4c2b-977e-56230925b5c3",
+    "landed": "419b7d24e7bf81e2a735b89543ed6e5642fb74e0"
   }
 }
