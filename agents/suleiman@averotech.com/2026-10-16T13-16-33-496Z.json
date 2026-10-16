@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-16T13-16-33-496Z",
+  "startedAt": "2026-10-16T13:16:34.102Z",
+  "status": "running",
+  "intent": "open google and search for last ai news",
+  "driver": "claude-code",
+  "model": "opus",
+  "caller": {
+    "runner": {
+      "host": "Suleimans-MacBook-Pro.local",
+      "pid": 47287
+    },
+    "host": "Suleimans-MacBook-Pro.local"
+  }
+}
