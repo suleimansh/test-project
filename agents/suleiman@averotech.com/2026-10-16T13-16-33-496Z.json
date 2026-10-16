@@ -1,8 +1,7 @@
 {
   "id": "2026-10-16T13-16-33-496Z",
   "startedAt": "2026-10-16T13:16:34.102Z",
-  "endedAt": "2026-10-16T13:17:14.885Z",
-  "status": "stopped",
+  "status": "running",
   "intent": "open google and search for last ai news",
   "title": "Latest AI news search",
   "driver": "claude-code",
@@ -10,10 +9,10 @@
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 47287,
+      "pid": 91342,
       "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19"
     },
-    "pid": 47287,
+    "pid": 91342,
     "host": "Suleimans-MacBook-Pro.local",
     "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19",
     "kind": "prompt",
