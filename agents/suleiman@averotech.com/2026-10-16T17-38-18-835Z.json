@@ -7,7 +7,6 @@
   "title": "Add a nav to index.html linking About and Files",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T17-38-18-835Z",
   "cost": 0.07128380000000001,
   "contextTokens": 26061,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "6ece11693426008ffa700ca4f69cf1bb9a877c93",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T17-38-18-835Z",
-    "sessionId": "9ee0194c-eb59-45a0-b79a-811bbfdb0c72"
+    "sessionId": "9ee0194c-eb59-45a0-b79a-811bbfdb0c72",
+    "landed": "bb714238ffdd5c22cf43ffd2339b875c3de70cc4"
   }
 }
