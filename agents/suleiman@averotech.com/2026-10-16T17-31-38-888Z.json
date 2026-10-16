@@ -7,7 +7,6 @@
   "title": "Add a nav to index.html linking to both pages",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T17-31-38-888Z",
   "cost": 0.07446119999999999,
   "contextTokens": 26641,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "3903807dd02f6670f2d71ea3b8d8f207e9e4ad0e",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T17-31-38-888Z",
-    "sessionId": "60cf6338-5356-4c68-a1a6-0b23a88f3ff6"
+    "sessionId": "60cf6338-5356-4c68-a1a6-0b23a88f3ff6",
+    "landed": "a58972c7c0ff8b472c18f6e2314447bdf1914481"
   }
 }
