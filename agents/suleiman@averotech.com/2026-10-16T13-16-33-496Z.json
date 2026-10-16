@@ -1,11 +1,15 @@
 {
   "id": "2026-10-16T13-16-33-496Z",
   "startedAt": "2026-10-16T13:16:34.102Z",
-  "status": "running",
+  "endedAt": "2026-10-16T15:19:13.766Z",
+  "status": "done",
   "intent": "open google and search for last ai news",
   "title": "Latest AI news search",
   "driver": "claude-code",
   "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-16T13-16-33-496Z",
+  "cost": 0.3914052,
+  "contextTokens": 31654,
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
