@@ -7,7 +7,6 @@
   "title": "Write the About page (about.html)",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T17-30-46-681Z",
   "cost": 0.0756774,
   "contextTokens": 26816,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "a8a26dd6d01a2c158f9358b2ec464de89b6fefd3",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T17-30-46-681Z",
-    "sessionId": "070c208d-bc7f-48a3-8453-efc10e1a21e4"
+    "sessionId": "070c208d-bc7f-48a3-8453-efc10e1a21e4",
+    "landed": "3874e6c239c0c2978147a1fb63358296f83c7b36"
   }
 }
