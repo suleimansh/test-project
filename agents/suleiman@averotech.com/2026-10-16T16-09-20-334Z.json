@@ -7,7 +7,6 @@
   "title": "Write about.html from the README",
   "driver": "claude-code",
   "model": "claude-sonnet-5-5",
-  "branch": "agent-2026-10-16T16-09-20-334Z",
   "cost": 0.07286609999999999,
   "contextTokens": 26769,
   "caller": {
@@ -26,6 +25,7 @@
     "baseCommit": "a8a26dd6d01a2c158f9358b2ec464de89b6fefd3",
     "kind": "prompt",
     "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T16-09-20-334Z",
-    "sessionId": "15477e96-9b7d-45e0-adc3-6e68ad015c5f"
+    "sessionId": "15477e96-9b7d-45e0-adc3-6e68ad015c5f",
+    "landed": "63d41025d0b2999ec03935c61c85f4415f477cf5"
   }
 }
