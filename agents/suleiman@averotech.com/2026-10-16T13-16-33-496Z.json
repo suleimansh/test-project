@@ -1,15 +1,24 @@
 {
   "id": "2026-10-16T13-16-33-496Z",
   "startedAt": "2026-10-16T13:16:34.102Z",
-  "status": "running",
+  "endedAt": "2026-10-16T13:17:14.885Z",
+  "status": "stopped",
   "intent": "open google and search for last ai news",
+  "title": "Latest AI news search",
   "driver": "claude-code",
-  "model": "opus",
+  "model": "claude-opus-5-5",
+  "branch": "agent-2026-10-16T13-16-33-496Z",
   "caller": {
     "runner": {
       "host": "Suleimans-MacBook-Pro.local",
-      "pid": 47287
+      "pid": 47287,
+      "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19"
     },
-    "host": "Suleimans-MacBook-Pro.local"
+    "pid": 47287,
+    "host": "Suleimans-MacBook-Pro.local",
+    "baseCommit": "0d945b15ce0a20519adc2e698e27c0c522f49f19",
+    "kind": "prompt",
+    "workspace": "/Users/suleiman/Projects/test-project/.branches/agent-2026-10-16T13-16-33-496Z",
+    "sessionId": "746500c8-bdd4-4358-9b80-c45d8f6cec16"
   }
 }
