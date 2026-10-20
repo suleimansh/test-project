@@ -4,7 +4,7 @@ description: "Answer what came on your pull request after you ended: maintainers
 disable-model-invocation: true
 schedule:
   resumes: true
-  when: node /Users/suleiman/Projects/gemstack/packages/skill-github/bin/github replies
+  when: npx @openagt/skill-github@0.1 replies
   waits-for: when a maintainer answered on a pull request an agent of this machine opened, one of its checks turned red, or it conflicts with its base branch
 metadata:
   version: 0.1.0
