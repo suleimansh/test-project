@@ -1,1 +1,1 @@
-Colors: red, green
+Colors: red, green, blue
