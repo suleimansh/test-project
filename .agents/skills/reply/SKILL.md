@@ -14,7 +14,7 @@ You opened a pull request earlier in this conversation, then ended. What follows
 
 First read the whole pull request again, its discussion and its changes, not only what is below: a comment may answer an earlier one, and one may already be answered. If the pull request cannot be read, show an error to the user saying why and stop.
 
-Your last message is your answer on the pull request: it is posted there for you, in the one comment that shows your steps while you work. Write it for the people there, and post no comment of your own. A comment on a line of the changes may get its answer in that line's thread too; begin it with the line `🤖 *automated*`, so what you post is told apart from what people write.
+Your last message is your answer on the pull request: it is posted there for you, in the one comment that shows what you do while you work. Write it for the people there, and post no comment of your own. A comment on a line of the changes may get its answer in that line's thread too; begin it with the line `🤖 *automated*`, so what you post is told apart from what people write.
 
 For each comment or review: fix it and push, answer it, or leave it, and say which and why.
 
