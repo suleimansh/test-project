@@ -1,8 +1,11 @@
 # Hello
 
-A single static page. No build step, no dependencies. It renders one centered
-greeting — "Hello, and welcome." — on a dark background, and nothing else. The
-favicon is a white "H" on a rounded square in the same dark colour as the page.
+A single static page. No build step, no dependencies. It shows a centered
+heading, "Hello, and welcome.", with a short grey subtitle, "A test page.", under
+it, on a dark slate background (`#0f172a`). The favicon is a white "H" on a
+rounded square in the same dark colour as the page.
+
+Live at **https://suleimansh.github.io/test-project/**
 
 ## Files
 
@@ -11,13 +14,28 @@ favicon is a white "H" on a rounded square in the same dark colour as the page.
 | `index.html` | The whole page — markup and inline styles |
 | `favicon.svg` | Favicon for modern browsers |
 | `favicon.ico` | Fallback favicon for browsers that ignore the SVG |
+| `.github/workflows/deploy.yml` | Publishes the page to GitHub Pages (see [Deploy](#deploy)) |
+| `try-assets/` | Icons used in the agents' pull request comments; not part of the site |
+| `test.md`, `test2.md`, `test5.md` | Scratch notes from test runs; not part of the site |
+
+Only the first three are published. Everything else stays in the repository.
+
+## Edit the page
+
+All content and styling live in `index.html`; there is no stylesheet or script
+to keep in step. Change the `<h1>` for the heading and the `<p>` under it for the
+subtitle, then reload the page to check it. The page colours are set in the
+`<style>` block (background `#0f172a`, heading `#f8fafc`) and inline on the
+subtitle (`#94a3b8`). If you change the background, change the favicon's fill
+in `favicon.svg` (and regenerate `favicon.ico`) so they keep matching.
 
 ## Run it locally
 
-Open the file directly:
+Open the file directly in a browser:
 
 ```sh
-open index.html
+open index.html        # macOS
+xdg-open index.html    # Linux
 ```
 
 Or serve it over HTTP, which matches production more closely:
@@ -28,8 +46,6 @@ python3 -m http.server 8000
 ```
 
 ## Deploy
-
-Live at **https://suleimansh.github.io/test-project/**
 
 Deployment is GitHub Pages, driven by `.github/workflows/deploy.yml`. Every push to
 `main` publishes the site; it can also be run by hand from the Actions tab.
