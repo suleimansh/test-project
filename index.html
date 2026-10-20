@@ -8,26 +8,82 @@
      project Pages, so "/favicon.ico" would resolve to the user-site root. -->
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<style>
-  html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #0f172a;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  }
-  h1 {
-    margin: 0 0 1rem;
-    color: #f8fafc;
-    font-size: 3rem;
-    font-weight: 600;
-  }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Hello, and welcome.</h1>
-<p style="color:#94a3b8">A test page.</p>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">Hello</a>
+    <nav aria-label="Main">
+      <ul class="nav-list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container">
+      <h1>Hello, and welcome.</h1>
+      <p class="lead">A simple test site, built to show what a clean landing page looks like.</p>
+      <a class="button" href="#features">Learn more</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Simple</h3>
+          <p>Plain HTML and one stylesheet. Nothing to install and nothing to build.</p>
+        </article>
+        <article class="card">
+          <h3>Responsive</h3>
+          <p>The layout adapts from wide desktop screens down to small phones.</p>
+        </article>
+        <article class="card">
+          <h3>Fast</h3>
+          <p>No scripts and no frameworks, so the page loads almost instantly.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is this site?</summary>
+        <p>It is a test site used to try out publishing and review workflows.</p>
+      </details>
+      <details>
+        <summary>Is the content real?</summary>
+        <p>No. All text here is placeholder content.</p>
+      </details>
+      <details>
+        <summary>Does it work on phones?</summary>
+        <p>Yes. The layout stacks into a single column on narrow screens.</p>
+      </details>
+      <details>
+        <summary>Does it use JavaScript?</summary>
+        <p>No. The navigation and the FAQ work with plain HTML and CSS only.</p>
+      </details>
+      <details>
+        <summary>Where is it hosted?</summary>
+        <p>It is served as a static site from the project's GitHub Pages.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <p>&copy; 2026 Test site. All rights reserved.</p>
+  </div>
+</footer>
 </body>
 </html>

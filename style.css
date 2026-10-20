@@ -1,0 +1,127 @@
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #cbd5e1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a { color: inherit; }
+
+h1, h2, h3 { color: #f8fafc; line-height: 1.2; }
+
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.logo {
+  color: #f8fafc;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-list a { text-decoration: none; }
+.nav-list a:hover { color: #f8fafc; }
+
+/* Hero */
+.hero {
+  padding: 6rem 0;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.lead {
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+  color: #94a3b8;
+  font-size: 1.2rem;
+}
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #38bdf8;
+  color: #0f172a;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.button:hover { background: #7dd3fc; }
+
+/* Features */
+.features, .faq { padding: 4rem 0; }
+.features h2, .faq h2 { margin: 0 0 2rem; text-align: center; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.card {
+  padding: 1.5rem;
+  background: #1e293b;
+  border-radius: 0.75rem;
+}
+.card h3 { margin: 0 0 0.5rem; }
+.card p { margin: 0; }
+
+/* FAQ */
+.faq .container { max-width: 44rem; }
+details {
+  padding: 1rem 0;
+  border-bottom: 1px solid #1e293b;
+}
+summary {
+  color: #f8fafc;
+  font-weight: 600;
+  cursor: pointer;
+}
+details p { margin: 0.75rem 0 0; }
+
+/* Footer */
+.site-footer {
+  padding: 2rem 0;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+  text-align: center;
+}
+.site-footer p { margin: 0; }
+
+/* Phones */
+@media (max-width: 640px) {
+  .hero { padding: 3.5rem 0; }
+  .hero h1 { font-size: 2.25rem; }
+  .cards { grid-template-columns: 1fr; }
+  .features, .faq { padding: 2.5rem 0; }
+  .header-inner { justify-content: center; }
+}
