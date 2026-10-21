@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "source": "openagt/openagent",
+      "sourceType": "github",
+      "skillPath": "skills/github/SKILL.md",
+      "computedHash": "9495ca140cafc21f8463301925fc5466c72cfda55d99e2b7b5f3b8a462251e27"
+    }
+  }
+}
