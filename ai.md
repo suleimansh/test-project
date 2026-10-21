@@ -1,0 +1,1 @@
+Artificial intelligence is transforming how we work, learn, and create. From language models that write and reason to systems that diagnose disease and drive cars, AI extends human capability. Yet it raises important questions about fairness, privacy, and accountability. Building AI responsibly requires collaboration between engineers, policymakers, and the public.
