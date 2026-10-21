@@ -16,7 +16,6 @@ Live at **https://suleimansh.github.io/test-project/**
 | `favicon.ico` | Fallback favicon for browsers that ignore the SVG |
 | `.github/workflows/deploy.yml` | Publishes the page to GitHub Pages (see [Deploy](#deploy)) |
 | `try-assets/` | Icons used in the agents' pull request comments; not part of the site |
-| `test.md`, `test2.md`, `test5.md` | Scratch notes from test runs; not part of the site |
 
 Only the first three are published. Everything else stays in the repository.
 
