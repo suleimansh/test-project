@@ -1,4 +1,4 @@
-# Hello
+# Welcome page
 
 A single static page. No build step, no dependencies. It shows a centered
 heading, "Hello, and welcome.", with a short grey subtitle, "A test page.", under
