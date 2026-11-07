@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-07T03-33-33-542Z",
+  "startedAt": "2026-11-07T03:33:34.624Z",
+  "endedAt": "2026-11-07T03:33:40.487Z",
+  "status": "waiting",
+  "intent": "ask me question",
+  "title": "Clarifying question for session",
+  "driver": "claude-code",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "branch": "agent-2026-11-07T03-33-33-542Z",
+  "cost": 0.0435812,
+  "contextTokens": 22989,
+  "caller": {
+    "runner": {
+      "host": "Suleimans-MacBook-Pro.local",
+      "pid": 65277,
+      "publish": "commit",
+      "gitAccount": "suleimansh",
+      "skillsOff": [
+        "github",
+        "ask"
+      ],
+      "projectSkills": "none",
+      "baseCommit": "84539eb95e2f464558b8db39bccc9d671ae2fa0d"
+    },
+    "pid": 65277,
+    "host": "Suleimans-MacBook-Pro.local",
+    "gitAccount": "suleimansh",
+    "baseCommit": "84539eb95e2f464558b8db39bccc9d671ae2fa0d",
+    "publish": "commit",
+    "skillsOff": [
+      "github",
+      "ask"
+    ],
+    "projectSkills": "none",
+    "kind": "prompt",
+    "workspace": "/private/tmp/claude-501/-Users-suleiman-Projects-openagent/c87be9ae-10f8-4318-8bbb-ac4d03f73e1a/scratchpad/rig/repos/demo-app/.branches/agent-2026-11-07T03-33-33-542Z",
+    "sessionId": "34c7a854-9009-4e53-9af6-26539fa5d293"
+  }
+}
