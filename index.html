@@ -24,6 +24,15 @@
     font-size: 3rem;
     font-weight: 600;
   }
+  footer {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.875rem;
+  }
 </style>
 </head>
 <body>
@@ -31,5 +40,7 @@
 <p style="color:#94a3b8">A test page.</p>
 <p style="color:#94a3b8">Thanks for stopping by!</p>
 <p style="color:#94a3b8">Hope you have a lovely day!</p>
+<footer>© <span id="year">2026</span></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
