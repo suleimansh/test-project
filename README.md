@@ -26,9 +26,9 @@ All content and styling live in `index.html`; there is no stylesheet or script
 to keep in step. Change the `<h1>` for the heading and the `<p>` lines under it for
 the subtitle lines, then reload the page to check it. All page colours live in
 the `<style>` block: background `#0f172a`, heading `#f8fafc`, and grey lines
-`#94a3b8` in the `p` rule. There are no inline styles. If you change the background,
-change the favicon's fill
-in `favicon.svg` (and regenerate `favicon.ico`) so they keep matching.
+`#94a3b8` in the `p` rule. There are no inline styles. If you change the
+background, change the favicon's fill in `favicon.svg` (and regenerate
+`favicon.ico`) so they keep matching.
 
 ## Run it locally
 
