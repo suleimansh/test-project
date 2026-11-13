@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A simple hello page.">
+<meta name="theme-color" content="#0f172a">
 <title>Hello page</title>
 <!-- Relative, not root-absolute: the site is served from /test-project/ on
      project Pages, so "/favicon.ico" would resolve to the user-site root. -->
@@ -12,24 +14,36 @@
   html, body {
     height: 100%;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: #0f172a;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  body {
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.5rem;
   }
   h1 {
     margin: 0 0 1rem;
     color: #f8fafc;
-    font-size: 3rem;
+    font-size: clamp(2rem, 8vw, 3rem);
     font-weight: 600;
+  }
+  p {
+    color: #94a3b8;
+    margin: 0.25rem 0;
+    line-height: 1.5;
   }
 </style>
 </head>
 <body>
 <h1>Hello World 🌍</h1>
-<p style="color:#94a3b8">A test page.</p>
-<p style="color:#94a3b8">Thanks for stopping by!</p>
-<p style="color:#94a3b8">Hope you have a lovely day!</p>
+<p>A test page.</p>
+<p>Thanks for stopping by!</p>
+<p>Hope you have a lovely day!</p>
 </body>
 </html>

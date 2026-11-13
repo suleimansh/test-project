@@ -1,8 +1,9 @@
 # Hello
 
-A single static page. No build step, no dependencies. It shows a centered
-heading, "Hello, and welcome.", with a short grey subtitle, "A test page.", under
-it, on a dark slate background (`#0f172a`). The favicon is a white "H" on a
+A single static page. No build step, no dependencies. It shows the heading
+"Hello World 🌍" followed by three short grey lines: "A test page.", "Thanks for
+stopping by!", and "Hope you have a lovely day!", stacked in a centered column
+on a dark slate background (`#0f172a`). The favicon is a white "H" on a
 rounded square in the same dark colour as the page.
 
 Live at **https://suleimansh.github.io/test-project/**
@@ -11,23 +12,23 @@ Live at **https://suleimansh.github.io/test-project/**
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | The whole page — markup and inline styles |
+| `index.html` | The whole page — markup and a `<style>` block |
 | `favicon.svg` | Favicon for modern browsers |
 | `favicon.ico` | Fallback favicon for browsers that ignore the SVG |
 | `.github/workflows/deploy.yml` | Publishes the page to GitHub Pages (see [Deploy](#deploy)) |
-| `try-assets/` | Icons used in the agents' pull request comments; not part of the site |
-| `test.md`, `test2.md`, `test5.md` | Scratch notes from test runs; not part of the site |
+| `test.md`, `test2.md`, `test5.md`, `test7.md` | Scratch notes from test runs; not part of the site |
 
 Only the first three are published. Everything else stays in the repository.
 
 ## Edit the page
 
 All content and styling live in `index.html`; there is no stylesheet or script
-to keep in step. Change the `<h1>` for the heading and the `<p>` under it for the
-subtitle, then reload the page to check it. The page colours are set in the
-`<style>` block (background `#0f172a`, heading `#f8fafc`) and inline on the
-subtitle (`#94a3b8`). If you change the background, change the favicon's fill
-in `favicon.svg` (and regenerate `favicon.ico`) so they keep matching.
+to keep in step. Change the `<h1>` for the heading and the `<p>` lines under it for
+the subtitle lines, then reload the page to check it. All page colours live in
+the `<style>` block: background `#0f172a`, heading `#f8fafc`, and grey lines
+`#94a3b8` in the `p` rule. There are no inline styles. If you change the
+background, change the favicon's fill in `favicon.svg` (and regenerate
+`favicon.ico`) so they keep matching.
 
 ## Run it locally
 
